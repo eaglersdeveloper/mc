@@ -9,7 +9,7 @@ confinement: devmode
 passthrough:
   title: Midnight Commander
   license: GPL-3.0-or-later
-icon: 
+icon: usr/share/icons/hicolor/64x64/apps/MidnightCommander.png
 
 parts:
   mc:
