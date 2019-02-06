@@ -18,7 +18,7 @@ parts:
   organize:
     $SNAP/usr: usr
 
-app:
+apps:
   mc:
     command: desktop-launch $SNAP/bin/mc
     desktop: usr/share/applications/mc.desktop
