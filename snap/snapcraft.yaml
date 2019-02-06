@@ -15,8 +15,6 @@ parts:
   mc:
     plugin: autotools
     source: https://github.com/MidnightCommander/mc/archive/master.zip
-  organize:
-    $SNAP/usr: usr
 
 apps:
   mc:
