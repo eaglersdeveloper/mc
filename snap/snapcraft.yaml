@@ -29,11 +29,11 @@ parts:
       - cvs
       - libssh2-1
       - libaspell15
-    override-build:
-      sed -i 's/dnl/#/g' configure.ac # Replace "dnl" to hashes
+    prepare: |
+      sed -i 's/dnl/#/g' configure.ac
 
 apps:
   mc:
-    command: desktop-launch $SNAP/bin/mc
+    command: $SNAP/bin/mc
   mcedit:
-    command: desktop-launch $SNAP/bin/mcedit
+    command: $SNAP/bin/mcedit
