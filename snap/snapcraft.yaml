@@ -29,6 +29,8 @@ parts:
       - cvs
       - libssh2-1
       - libaspell15
+    override-build:
+      sed -i 's/dnl/#/g' configure.ac # Replace "dnl" to hashes
 
 apps:
   mc:
