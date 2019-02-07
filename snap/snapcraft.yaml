@@ -35,7 +35,5 @@ parts:
 apps:
   mc:
     command: desktop-launch $SNAP/bin/mc
-    desktop: usr/share/applications/mc.desktop
   mcedit:
     command: desktop-launch $SNAP/bin/mcedit
-    desktop: usr/share/applications/mcedit.desktop
