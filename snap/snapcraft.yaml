@@ -14,7 +14,21 @@ icon: usr/share/icons/hicolor/64x64/apps/MidnightCommander.png
 parts:
   mc:
     plugin: autotools
-    source: https://github.com/MidnightCommander/mc/archive/master.zip
+    source: https://github.com/MidnightCommander/mc/archive/4.8.22.tar.gz
+    build-packages:
+      - libc6
+      - gcc
+      - make
+      - autoconf
+      - automake
+      - libtool
+      - libglib2.0-0
+      - libpcre3
+      - libslang2-dev
+      - gettext
+      - cvs
+      - libssh2-1
+      - libaspell15
 
 apps:
   mc:
